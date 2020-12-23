@@ -5,6 +5,9 @@ public class TicTacToe {
         char[][] gameBoard={{' ','|',' ','|',' '}, 
         		{'-','+','-','+','-'},{' ','|',' ','|',' '},{'-','+','-','+','-'},{' ','|',' ','|',' '}};
         printGameBoard(gameBoard);
+        Scanner scan = new Scanner (System.in);
+        System.out.println("Enter your placement (1 to 9): ");
+        int pos scan.nextInt();
         
     }
         for (char[] row: gameBoard) {        	
