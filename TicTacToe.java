@@ -9,6 +9,10 @@ public class TicTacToe {
         System.out.println("Enter your placement (1 to 9): ");
         int pos scan.nextInt();
         
+        System.out.println(pos);
+        placePiece(gameBoard, pos, "player");
+        printGameBoard(gameBoard);
+        
     }
         for (char[] row: gameBoard) {        	
             for (char c : row){
